@@ -326,7 +326,7 @@ def Label_DayMovie(SearchList):
     TheaterLa.place(x=0, y=400)
 
 
-    MEGABOXImage = Image.open("메가박스.JPG")
+    MEGABOXImage = Image.open("MegaBox.JPG")
     MEGABOXPhoto = ImageTk.PhotoImage(MEGABOXImage)
     MEGABOX = Button(MovieChart, image=MEGABOXPhoto, command=MEGABOXLogoButton)
     MEGABOX.image = MEGABOXPhoto
@@ -338,7 +338,7 @@ def Label_DayMovie(SearchList):
     CGV.image = CGVPhoto
     CGV.place(x=420, y=430)
 
-    LOTTEImage = Image.open("롯데시네마.PNG")
+    LOTTEImage = Image.open("Lottecinema.PNG")
     LOTTEPhoto = ImageTk.PhotoImage(LOTTEImage)
     LOTTE = Button(MovieChart, image=LOTTEPhoto, command=LOTTELogoButton)
     LOTTE.image = LOTTEPhoto
